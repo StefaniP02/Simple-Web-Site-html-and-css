@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body,
+h1,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+/* Your CSS Here */
+#header{
+	background-color: rgba(10, 8, 8, 0.747);
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	color: white;
+}
+
+@media screen and (max-width: 500px) {
+	#header{
+		flex-direction: column;
+	}
+	.nav{
+		width: 15%;
+	}
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+    margin-right: 20px;
+	
+}
+.nav{
+	background-color: rgba(169, 169, 169, 0.363);
+	padding: 10px;
+}
+
+#main{
+	background-color: rgb(238, 238, 238);
+	
+}
+
+.section-first{
+	margin: 0 auto;
+	background-color: white;
+	height: 100% ;
+	padding: 20px;
+}
+.section-first h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 36px;
+}
+.section-first p{
+	font-size: 18px;
+}
+.container-section-first{
+	padding: 100px 0 100px 0;
+	display: flex;
+	background-color:rgba(169, 169, 169, 0.315);
+	height: 30%;
+	margin: 0;
+
+}
+
+.two-columns{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.image-container{
+	width: 50%;
+	padding: 20px;
+}
+
+.paragraph-container{
+	width: 50%;
+	text-align: left;
+}
+
+#footer{
+	background-color: rgba(10, 8, 8, 0.747);
+	color: white;
+	padding: 10px;
+}
+
